@@ -18,8 +18,8 @@ export PATH=$PATH:~/extrastorage/SOFTWARE/swarm/bin
 writeLines(gsub("\t", ",", readLines("input.tab")), "output.csv")
 
 
-# 1. Paired-end alignment. Keep reads with quality > 40
-illuminapairedend -r wolf_F.fastq wolf_R.fastq | obiannotate -S goodali:'"Good_WOLF" if score>40.00 else "Bad_WOLF"' | obisplit -t goodali
+# 1. Paired-end alignment. Keep reads with quality > 30
+illuminapairedend -r wolf_F.fastq wolf_R.fastq | obiannotate -S goodali:'"Good_WOLF" if score>30.00 else "Bad_WOLF"' | obisplit -t goodali
 
 mkdir Output
 cp Good_WOLF.fastq
