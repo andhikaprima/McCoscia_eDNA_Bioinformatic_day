@@ -181,7 +181,7 @@ File WOLF_suma99_MOTUs.csv written, including 3093 MOTUs with 41119 total reads 
 ## start column for sample (-s) to end column of sample (-e)
 
 # Swarm
-Rscript ~/extrastorage/eDNA_scripts/owi_collapse_ap -i WOLF_swarm-d1_MOTUs.csv -t 0.70 -s 28 -e 31 
+Rscript Rscript /home/andhika/extrastorage/eDNA_scripts/owi_collapse_ap -i WOLF_swarm-d1_MOTUs.csv -t 0.70 -s 28 -e 31 
 
 Reading WOLF_swarm-d1_MOTUs.csv database
 Database WOLF_swarm-d1_MOTUs.csv read including 63 sequences.
@@ -193,7 +193,7 @@ Written WOLF_swarm-d1_MOTUs_collapsed.csv with 17 MOTUs.
 
 
 # Sumaclust
-Rscript ~/extrastorage/eDNA_scripts/owi_collapse_ap -i WOLF_suma99_MOTUs.csv -t 0.70 -s 17 -e 20
+Rscript Rscript /home/andhika/extrastorage/eDNA_scripts/owi_collapse_ap -i WOLF_suma99_MOTUs.csv -t 0.70 -s 17 -e 20
 
 Reading WOLF_suma99_MOTUs.csv database
 Database WOLF_suma99_MOTUs.csv read including 3093 sequences.
