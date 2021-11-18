@@ -41,7 +41,7 @@
 # install.packages("taxize")
 # install.packages("stringr")
 
-# Unload the library
+# Load the library
 library(dplyr)
 library(phyloseq)
 library(knitr)
