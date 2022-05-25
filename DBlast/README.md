@@ -1,3 +1,4 @@
+# Script to blast your MOTU to the online NCBI database
 # Initial Set-up
 # Create directory for Direct Blast then go to the directory
 mkdir DBlast
